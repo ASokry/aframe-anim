@@ -60,6 +60,7 @@
 
 		<!-- Xbot -->
 		<a-entity
+			id="bot"
 			gltf-model="#model"
 			position="0 0 -3"
 			animation-mixer="clip: Idle"
@@ -74,7 +75,7 @@
   			position="-2 1.8 -3"
   			scale="1 1 1"
   			rotation="0 45 0"
-  			animation-clip="clip: Idle; crossFadeDuration: 0.3"
+  			animation-clip="clip: Idle; crossFadeDuration: 0.3" 
   			event-set__enter="_event:mouseenter; text.color: red"
   			event-set__leaver="_event:mouseleave; text.color: black"
 		></a-entity>
